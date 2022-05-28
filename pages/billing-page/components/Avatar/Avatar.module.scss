@@ -1,0 +1,19 @@
+.sidebar__avatar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  &__name {
+    & h1 {
+      font-size: 1rem;
+    }
+    & p {
+      font-size: 0.875rem;
+      color: #62618f;
+    }
+  }
+
+  & img {
+    border-radius: 17px;
+  }
+}

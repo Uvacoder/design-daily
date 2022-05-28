@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .sidebar__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    row-gap: 1rem;
+    text-decoration: none;
+    margin-top: 49px;
+
+    &__link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      color: #62618f;
+      height: 32px;
+    }
+  }
+  .sidebar__logout {
+    display: flex;
+    align-items: flex-end;
+    padding: 29px 0;
+    flex: 1;
+    color: #62618f;
+  }
+}
