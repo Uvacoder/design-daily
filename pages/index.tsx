@@ -5,9 +5,9 @@ const Home: NextPage = () => {
   return (
     <div className="grid">
       <ItemCard
-        imgLink="https://picsum.photos/200"
+        imgLink="/images/billing-page/thumbnail.png"
         date="28 april 2022"
-        title="billing something"
+        title="billing page"
         link="/billing-page"
       />
     </div>

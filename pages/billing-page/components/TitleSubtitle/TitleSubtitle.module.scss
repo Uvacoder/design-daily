@@ -1,0 +1,13 @@
+.title__subtitle__container {
+  & h5 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  & p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: #62618f;
+  }
+}

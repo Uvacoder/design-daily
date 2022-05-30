@@ -10,7 +10,7 @@ const SidebarLinks = () => {
           <Image
             height={32}
             width={32}
-            src="/images/general.svg"
+            src="/images/billing-page/general.svg"
             alt="general"
           />
           <Link href="#">General</Link>
@@ -19,7 +19,7 @@ const SidebarLinks = () => {
           <Image
             height={32}
             width={32}
-            src="/images/password.svg"
+            src="/images/billing-page/password.svg"
             alt="password"
           />
           <Link href="#">Password</Link>
@@ -28,7 +28,7 @@ const SidebarLinks = () => {
           <Image
             height={32}
             width={32}
-            src="/images/invitations.svg"
+            src="/images/billing-page/invitations.svg"
             alt="invitations"
           />
           <Link href="#">Invitations</Link>
@@ -37,19 +37,29 @@ const SidebarLinks = () => {
           <Image
             height={32}
             width={32}
-            src="/images/billing.svg"
+            src="/images/billing-page/billing.svg"
             alt="billing"
           />
           <Link href="#">Billing</Link>
         </li>
         <li className={styles.sidebar__list__link}>
-          <Image height={32} width={32} src="/images/apps.svg" alt="apps" />
+          <Image
+            height={32}
+            width={32}
+            src="/images/billing-page/apps.svg"
+            alt="apps"
+          />
           <Link href="#">Apps</Link>
         </li>
       </ul>
 
       <button className={styles.sidebar__logout}>
-        <Image height={32} width={32} src="/images/logout.svg" alt="apps" />
+        <Image
+          height={32}
+          width={32}
+          src="/images/billing-page/logout.svg"
+          alt="apps"
+        />
         <Link href="#">Log out</Link>
       </button>
     </div>

@@ -1,7 +1,9 @@
 .sidebar {
+  display: flex;
+  flex-direction: column;
   width: fit-content;
   font-family: "Poppins", sans-serif;
-  padding: 58px 38px;
+  padding: 58px 43px 29px 38px;
   background-color: #f8f8ff;
   height: 100%;
   box-sizing: border-box;

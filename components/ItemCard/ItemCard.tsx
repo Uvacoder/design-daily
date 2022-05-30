@@ -9,17 +9,17 @@ interface ItemCardProps {
 
 const ItemCard: React.FC<ItemCardProps> = ({ imgLink, title, date, link }) => {
   return (
-    <div className="grid__item">
-      <div className="grid__item__imgcontainer">
-        <Link href={link}>
+    <Link href={link}>
+      <div className="grid__item">
+        <div className="grid__item__imgcontainer">
           <img src={imgLink} alt="card" />
-        </Link>
+        </div>
+        <div className="grid__item__description">
+          <h1>{title}</h1>
+          <p>{date}</p>
+        </div>
       </div>
-      <div className="grid__item__description">
-        <h1>{title}</h1>
-        <p>{date}</p>
-      </div>
-    </div>
+    </Link>
   );
 };
 

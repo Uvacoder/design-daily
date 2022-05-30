@@ -2,10 +2,12 @@
   display: flex;
   align-items: center;
   gap: 14px;
+  width: 100%;
 
   &__name {
     & h1 {
       font-size: 1rem;
+      white-space: nowrap;
     }
     & p {
       font-size: 0.875rem;
@@ -15,5 +17,6 @@
 
   & img {
     border-radius: 17px;
+    min-width: 55px;
   }
 }

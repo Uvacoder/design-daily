@@ -1,0 +1,19 @@
+.billing__page {
+  height: 100%;
+  display: flex;
+
+  &__dashboard {
+    padding: 65px 72px;
+    width: 100%;
+    background: linear-gradient(304.24deg, #f8f8ff 0%, #ffffff 86.71%);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    & h1 {
+      grid-column: 1 / span3;
+    }
+  }
+
+  &__table {
+    flex: 1;
+  }
+}
